@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Deletes all images from all ACR registries older than a specific number of months
+    Deletes all images from all repositories in a given ACR, that are older than a specific number of months
 .EXAMPLE
     ./removeOldACRDockerImages.ps1 -olderThanMonths 6 -acrName myAcr
 #>
